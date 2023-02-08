@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    initialize()
+
 
 fetch('https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/testData.json')
     .then((response) => response.json())
@@ -7,11 +7,8 @@ fetch('https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/testData.json')
 
 });
 
-function initialize(){
-    const start = document.getElementById("StartButton");
-    start.onclick = startGame(start);
-}
 
-function startGame(startButton){
+function startGame(){
+    const startButton = document.getElementById("StartButton");
     startButton.style.display = "none";
 }
