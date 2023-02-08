@@ -1,5 +1,5 @@
 function search() {
-    var queryURL = "https://jsonplaceholder.typicode.com/users";
+    var queryURL = "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/testData.json";
 
     fetch(queryURL)
             .then(function (response) {
