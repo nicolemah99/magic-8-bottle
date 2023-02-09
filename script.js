@@ -23,9 +23,15 @@ function nextQuestion(number) {
 	const questionDiv = document.getElementById(`Question${stringNum}`);
     questionDiv.style.display = 'flex';
     
-    
 }
 
 function shake(){
     document.getElementById("wineBottle").className = "shake";
+    finishGame();
+}
+
+function finishGame(){
+    const lastQuestion = document.getElementById('Question4');
+    lastQuestion.style.display = 'none';
+
 }
