@@ -23,4 +23,9 @@ function nextQuestion(number) {
 	const questionDiv = document.getElementById(`Question${stringNum}`);
     questionDiv.style.display = 'flex';
     
+    
+}
+
+function shake(){
+    document.getElementById("wineBottle").className = "shake";
 }
