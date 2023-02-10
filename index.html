@@ -16,6 +16,7 @@
                     <h1 class="heading-2">Let the Magic 8 Bottle Choose An Experience for you!</h1>
                     <div id="Questions" class="container-center">
                         <button id="StartButton" class="Squareshot" onclick="startGame()">Start</button>
+                        <button id="RandomButton" class="Squareshot" onclick="getJSON()">Random</button>
                         <div id="Question1" class="Question">
                             <p>Question1</p>
                             <div class="Squareshot" onclick="nextQuestion(2)">Answer 1</div>
@@ -41,6 +42,12 @@
                             <div class="Squareshot" onclick="shake()">Answer 3</div>
                         </div>
                     </div>
+                    <a id="Link" href="">
+                        <h1 id="Name"></h1>
+                        <h2 id="Telesomm"></h2>
+                        <img id="ExpImg" src="" alt="">
+
+                    </a>
                 </div><img id="wineBottle" src="https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/wineBottle.svg" loading="lazy"
                     alt="">
             </div>
