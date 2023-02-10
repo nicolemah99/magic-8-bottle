@@ -18,7 +18,7 @@ function getRandExperience(exp){
     var len = Object.keys(exp).length;
     var randInt = getRandomInt(0,len);
     console.log(len);
-    const chosen = exp[randInt];
+    const chosen = exp[0];
     showExperience(chosen);
     console.log(chosen["link"]);
 }
@@ -33,6 +33,7 @@ function showExperience(exp){
     name.innerHTML = exp['name'];
     telesomm.innerHTML = exp['telesomm'];
     img.src = exp['img'];
+    console.log(img.src);
 }
 
 function getRandomInt(min, max) {
@@ -45,7 +46,9 @@ function getRandomInt(min, max) {
   
 function startGame() {
 	const startButton = document.getElementById("StartButton");
+    const randButton = document.getElementById('RandButton');
 	startButton.style.display = "none";
+    randButton.style.display = 'none';
 	nextQuestion(1);
 }
 
@@ -72,5 +75,6 @@ function shake(){
 function finishGame(){
     const lastQuestion = document.getElementById('Question4');
     lastQuestion.style.display = 'none';
+    getJSON();
 
 }
