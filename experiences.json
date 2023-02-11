@@ -3,153 +3,153 @@
 		"id": 1,
 		"name": "50 Shades of Pink",
 		"link": "www.telesomm.com/product/50-shades-of-pink",
-		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/tree/master/event_images/2.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/2.png",
 		"telesomm": "Christopher"
 	},
 	{
 		"name": "A Coat of Many Colors",
 		"link": "www.telesomm.com/product/a-coat-of-many-colors",
-		"img": "30.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/30.png",
 		"telesomm": "Christopher"
 	},
 	{
 		"id": 3,
 		"name": "A Drunk History of Spain",
 		"link": "www.telesomm.com/product/a-drunk-history-of-spain",
-		"img": "4.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/4.png",
 		"telesomm": "Sean"
 	},
 	{
 		"id": 4,
 		"name": "A Riesling to Drink",
 		"link": "www.telesomm.com/product/riesling-to-drink",
-		"img": "3.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/3.png",
 		"telesomm": "Christopher"
 	},
 	{
 		"id": 5,
 		"name": "All About X! (choose your adeventure)",
 		"link": "www.telesomm.com/product/all-about-x",
-		"img": "18.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/18.png",
 		"telesomm": "Lourdes"
 	},
 	{
 		"id": 6,
 		"name": "Around the World in 4 Bottles",
 		"link": "www.telesomm.com/product/around-the-world-in-4-bottles",
-		"img": "20.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/20.png",
 		"telesomm": "Christopher"
 	},
 	{
 		"id": 7,
 		"name": "Spanish Class, By The Glass",
 		"link": "www.telesomm.com/product/spanish-class-by-the-glass",
-		"img": "12.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/12.png",
 		"telesomm": "Sean"
 	},
 	{
 		"id": 8,
 		"name": "Journey to the End of the World",
 		"link": "www.telesomm.com/product/journey-to-the-end-of-the-world",
-		"img": "20.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/20.png",
 		"telesomm": "Sean"
 	},
 	{
 		"id": 9,
 		"name": "Txa-Txa-Txakoli!",
 		"link": "www.telesomm.com/product/txa-txa-txakoli",
-		"img": "3.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/3.png",
 		"telesomm": "Sean"
 	},
 	{
 		"id": 10,
 		"name": "Brown Bag Blind Tasting",
 		"link": "www.telesomm.com/product/brown-bag-blind-tasting",
-		"img": "17.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/17.png",
 		"telesomm": "Lourdes"
 	},
 	{
 		"id": 11,
 		"name": "Wine + Food Menu Pairing Consult",
 		"link": "www.telesomm.com/product/wine-and-food-menu-pairing-consult",
-		"img": "11.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/11.png",
 		"telesomm": "Lourdes"
 	},
 	{
 		"id": 12,
 		"name": "Bubbles, Bubbles, Bubbles",
 		"link": "www.telesomm.com/product/bubbles-bubbles-bubbles",
-		"img": ".png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/1.png",
 		"telesomm": "Abria"
 	},
 	{
 		"id": 15,
 		"name": "Galentine's Day Brunch",
 		"link": "www.telesomm.com/product/galentines-day-brunch",
-		"img": "15.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/15.png",
 		"telesomm": "Abria"
 	},
 	{
 		"id": 14,
 		"name": "Discover Black-Owned Wine Brands",
 		"link": "www.telesomm.com/product/discover-black-owned-wine-brands",
-		"img": "25.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/25.png",
 		"telesomm": "Abria"
 	},
 	{
 		"id": 15,
 		"name": "Wine Cocktails",
 		"link": "www.telesomm.com/product/wine-cocktails",
-		"img": "33.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/33.png",
 		"telesomm": "Abria"
 	},
 	{
 		"id": 16,
 		"name": "Create a Wine & Food Pairing Menu",
 		"link": "www.telesomm.com/product/creating-a-wine-and-food-pairing-menu",
-		"img": "15.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/15.png",
 		"telesomm": "Abria"
 	},
 	{
 		"id": 17,
 		"name": "Natural Wine Tasting",
 		"link": "www.telesomm.com/product/natural-wine-tasting",
-		"img": "13.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/13.png",
 		"telesomm": "Jett"
 	},
 	{
 		"id": 18,
 		"name": "Wine Promotional Video One-on-One",
 		"link": "www.telesomm.com/product/wine-promotional-video",
-		"img": "28.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/28.png",
 		"telesomm": "Jett"
 	},
 	{
 		"id": 19,
 		"name": "Love the Wine You're With",
 		"link": "www.telesomm.com/product/love-the-wine-youre-with",
-		"img": "15.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/15.png",
 		"telesomm": "Brielle"
 	},
 	{
 		"id": 20,
 		"name": "Roll Out the Red Carpet",
 		"link": "www.telesomm.com/product/roll-out-the-red-carpet",
-		"img": "21.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/21.png",
 		"telesomm": "Brielle"
 	},
 	{
 		"id": 21,
 		"name": "Wines from Where?",
 		"link": "www.telesomm.com/product/wines-from-where",
-		"img": "12.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/12.png",
 		"telesomm": "Brielle"
 	},
 	{
 		"id": 22,
 		"name": "Rosé Colored Glasses",
 		"link": "www.telesomm.com/product/rose-colored-glasses",
-		"img": "22.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/22.png",
 		"telesomm": "Brielle"
 	},
 	{
@@ -163,98 +163,98 @@
 		"id": 24,
 		"name": "Discover Small Producers: Virginia",
 		"link": "www.telesomm.com/product/discover-small-producers-of-virginia",
-		"img": "23.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/23.png",
 		"telesomm": "Kelly"
 	},
 	{
 		"id": 25,
 		"name": "Wine Shopping Consultation with Kelly",
 		"link": "www.telesomm.com/product/wine-shopping-consultation-with-kelly",
-		"img": "5.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/5.png",
 		"telesomm": "Kelly"
 	},
 	{
 		"id": 26,
 		"name": "Discover Small Producers: Sonoma County",
 		"link": "www.telesomm.com/product/discover-small-producers-of-sonoma-county",
-		"img": "27.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/27.png",
 		"telesomm": "Kelly"
 	},
 	{
 		"id": 27,
 		"name": "Old vs. New World Blind Tasting",
 		"link": "www.telesomm.com/product/old-vs-new-world-blind-tasting",
-		"img": "4.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/4.png",
 		"telesomm": "Kelly"
 	},
 	{
 		"id": 28,
 		"name": "Taste of Campania",
 		"link": "www.telesomm.com/product/taste-of-campania",
-		"img": "7.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/7.png",
 		"telesomm": "Katarina"
 	},
 	{
 		"id": 29,
 		"name": "Taste of Calabria",
 		"link": "www.telesomm.com/product/taste-of-calabria",
-		"img": "7.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/7.png",
 		"telesomm": "Katarina"
 	},
 	{
 		"id": 30,
 		"name": "Taste of Tuscany",
 		"link": "www.telesomm.com/product/taste-of-tuscany",
-		"img": "8.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/8.png",
 		"telesomm": "Katarina"
 	},
 	{
 		"id": 31,
 		"name": "Taste of Puglia",
 		"link": "www.telesomm.com/product/taste-of-puglia",
-		"img": "9.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/9.png",
 		"telesomm": "Katarina"
 	},
 	{
 		"id": 32,
 		"name": "Italian Wine Consultation",
 		"link": "www.telesomm.com/product/italian-wine-consultation",
-		"img": "8.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/8.png",
 		"telesomm": "Katarina"
 	},
 	{
 		"id": 33,
 		"name": "The Best Dinner Party Ever - Menu Pairings",
 		"link": "www.telesomm.com/product/the-best-dinner-party-ever",
-		"img": "10.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/10.png",
 		"telesomm": "Christopher"
 	},
 	{
 		"id": 34,
 		"name": "The Traveling Grape",
 		"link": "www.telesomm.com/product/the-traveling-grape",
-		"img": "1.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/1.png",
 		"telesomm": "Lourdes"
 	},
 	{
 		"id": 35,
 		"name": "Private Biodynamic & Organic Wine Shopping",
 		"link": "www.telesomm.com/product/private-biodynamic-and-organic-wine-shopping",
-		"img": "8.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/8.png",
 		"telesomm": "Lourdes"
 	},
 	{
 		"id": 36,
 		"name": "Pinkies Up",
 		"link": "www.telesomm.com/product/pinkies-up",
-		"img": "19.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/19.png",
 		"telesomm": "Kelly"
 	},
 	{
 		"id": 37,
 		"name": "Rioja: The Wine, The Place, The History",
 		"link": "www.telesomm.com/product/rioja-the-wine-the-place-the-history",
-		"img": "4.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/4.png",
 		"telesomm": "Sean"
 	}
 ]
