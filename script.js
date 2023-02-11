@@ -18,7 +18,7 @@ function getRandExperience(exp){
     var len = Object.keys(exp).length;
     var randInt = getRandomInt(0,len);
     console.log(len);
-    const chosen = exp[0];
+    const chosen = exp[randInt];
     showExperience(chosen);
     console.log(chosen["link"]);
 }

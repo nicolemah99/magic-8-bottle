@@ -7,122 +7,121 @@
 		"telesomm": "Christopher"
 	},
 	{
-		"id": 2,
 		"name": "A Coat of Many Colors",
 		"link": "www.telesomm.com/product/a-coat-of-many-colors",
-		"img": "30.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/30.png",
 		"telesomm": "Christopher"
 	},
 	{
 		"id": 3,
 		"name": "A Drunk History of Spain",
 		"link": "www.telesomm.com/product/a-drunk-history-of-spain",
-		"img": "4.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/4.png",
 		"telesomm": "Sean"
 	},
 	{
 		"id": 4,
 		"name": "A Riesling to Drink",
 		"link": "www.telesomm.com/product/riesling-to-drink",
-		"img": "3.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/3.png",
 		"telesomm": "Christopher"
 	},
 	{
 		"id": 5,
 		"name": "All About X! (choose your adeventure)",
 		"link": "www.telesomm.com/product/all-about-x",
-		"img": "18.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/18.png",
 		"telesomm": "Lourdes"
 	},
 	{
 		"id": 6,
 		"name": "Around the World in 4 Bottles",
 		"link": "www.telesomm.com/product/around-the-world-in-4-bottles",
-		"img": "20.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/20.png",
 		"telesomm": "Christopher"
 	},
 	{
 		"id": 7,
 		"name": "Spanish Class, By The Glass",
 		"link": "www.telesomm.com/product/spanish-class-by-the-glass",
-		"img": "12.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/12.png",
 		"telesomm": "Sean"
 	},
 	{
 		"id": 8,
 		"name": "Journey to the End of the World",
 		"link": "www.telesomm.com/product/journey-to-the-end-of-the-world",
-		"img": "20.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/20.png",
 		"telesomm": "Sean"
 	},
 	{
 		"id": 9,
 		"name": "Txa-Txa-Txakoli!",
 		"link": "www.telesomm.com/product/txa-txa-txakoli",
-		"img": "3.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/3.png",
 		"telesomm": "Sean"
 	},
 	{
 		"id": 10,
 		"name": "Brown Bag Blind Tasting",
 		"link": "www.telesomm.com/product/brown-bag-blind-tasting",
-		"img": "17.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/17.png",
 		"telesomm": "Lourdes"
 	},
 	{
 		"id": 11,
 		"name": "Wine + Food Menu Pairing Consult",
 		"link": "www.telesomm.com/product/wine-and-food-menu-pairing-consult",
-		"img": "11.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/11.png",
 		"telesomm": "Lourdes"
 	},
 	{
 		"id": 12,
 		"name": "Bubbles, Bubbles, Bubbles",
 		"link": "www.telesomm.com/product/bubbles-bubbles-bubbles",
-		"img": ".png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/1.png",
 		"telesomm": "Abria"
 	},
 	{
 		"id": 15,
 		"name": "Galentine's Day Brunch",
 		"link": "www.telesomm.com/product/galentines-day-brunch",
-		"img": "15.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/15.png",
 		"telesomm": "Abria"
 	},
 	{
 		"id": 14,
 		"name": "Discover Black-Owned Wine Brands",
 		"link": "www.telesomm.com/product/discover-black-owned-wine-brands",
-		"img": "25.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/25.png",
 		"telesomm": "Abria"
 	},
 	{
 		"id": 15,
 		"name": "Wine Cocktails",
 		"link": "www.telesomm.com/product/wine-cocktails",
-		"img": "33.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/33.png",
 		"telesomm": "Abria"
 	},
 	{
 		"id": 16,
 		"name": "Create a Wine & Food Pairing Menu",
 		"link": "www.telesomm.com/product/creating-a-wine-and-food-pairing-menu",
-		"img": "15.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/15.png",
 		"telesomm": "Abria"
 	},
 	{
 		"id": 17,
 		"name": "Natural Wine Tasting",
 		"link": "www.telesomm.com/product/natural-wine-tasting",
-		"img": "13.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/13.png",
 		"telesomm": "Jett"
 	},
 	{
 		"id": 18,
 		"name": "Wine Promotional Video One-on-One",
 		"link": "www.telesomm.com/product/wine-promotional-video",
-		"img": "28.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/28.png",
 		"telesomm": "Jett"
 	},
 	{
@@ -220,7 +219,7 @@
 		"id": 32,
 		"name": "Italian Wine Consultation",
 		"link": "www.telesomm.com/product/italian-wine-consultation",
-		"img": ".png",
+		"img": "8.png",
 		"telesomm": "Katarina"
 	},
 	{
