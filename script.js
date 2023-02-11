@@ -17,10 +17,9 @@ function getJSON(){
 function getRandExperience(exp){
     var len = Object.keys(exp).length;
     var randInt = getRandomInt(0,len);
-    console.log(len);
     const chosen = exp[randInt];
     showExperience(chosen);
-    console.log(chosen["link"]);
+    console.log(chosen["img"]);
 }
 
 function showExperience(exp){
@@ -33,7 +32,6 @@ function showExperience(exp){
     name.innerHTML = exp['name'];
     telesomm.innerHTML = exp['telesomm'];
     img.src = exp['img'];
-    console.log(img.src);
 }
 
 function getRandomInt(min, max) {

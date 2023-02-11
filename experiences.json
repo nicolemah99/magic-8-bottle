@@ -163,21 +163,21 @@
 		"id": 24,
 		"name": "Discover Small Producers: Virginia",
 		"link": "www.telesomm.com/product/discover-small-producers-of-virginia",
-		"img": "23.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/23.png",
 		"telesomm": "Kelly"
 	},
 	{
 		"id": 25,
 		"name": "Wine Shopping Consultation with Kelly",
 		"link": "www.telesomm.com/product/wine-shopping-consultation-with-kelly",
-		"img": "5.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/5.png",
 		"telesomm": "Kelly"
 	},
 	{
 		"id": 26,
 		"name": "Discover Small Producers: Sonoma County",
 		"link": "www.telesomm.com/product/discover-small-producers-of-sonoma-county",
-		"img": "27.png",
+		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/27.png",
 		"telesomm": "Kelly"
 	},
 	{
