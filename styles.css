@@ -6,13 +6,20 @@
 .Question {
     display: none;
 }
+
 #StartOverBtn{
   display: none;
 }
+
 #ExpImg {
   display: none;
   width: 50%;
   height: 50%;
+}
+
+#QuestionsBox{
+  display: flex;
+  flex-direction: column;
 }
 
 /* Button Style from getcssscan.com by Squareshot */

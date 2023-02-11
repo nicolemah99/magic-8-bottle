@@ -26,12 +26,22 @@ function showExperience(exp){
     const name = document.getElementById('Name');
     const telesomm = document.getElementById('Telesomm');
     const img = document.getElementById('ExpImg');
+    const startOverBtn = document.getElementById('StartOverBtn');
+    startOverBtn.style.display = 'block';
     link.style.display = 'block';
     link.href = exp['link'];
     name.innerHTML = exp['name'];
     telesomm.innerHTML = exp['telesomm'];
     img.src = exp['img'];
-    img.style.display = 'flex';
+    img.style.display = 'block';
+}
+
+function hideBtns(){
+    const startButton = document.getElementById("StartBtn");
+    const randButton = document.getElementById('RandBtn');
+    startButton.style.display = "none";
+    randButton.style.display = "none";
+    getJSON();
 }
 
 function getRandomInt(min, max) {
@@ -62,6 +72,7 @@ function nextQuestion(number) {
     let stringNum = number.toString();
 	const questionDiv = document.getElementById(`Question${stringNum}`);
     questionDiv.style.display = 'flex';
+    questionDiv.style.flexDirection = 'column';
     
 }
 
@@ -73,6 +84,8 @@ function startOver(){
     const startOverBtn = document.getElementById('StartOverBtn');
     const startButton = document.getElementById("StartBtn");
     const randButton = document.getElementById('RandBtn');
+    const link = document.getElementById('Link');
+    link.style.display = "none";
     startOverBtn.style.display = 'none';
     startButton.style.display = "block";
     randButton.style.display = "block";
