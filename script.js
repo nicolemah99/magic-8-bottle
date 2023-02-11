@@ -17,9 +17,8 @@ function getJSON(){
 function getRandExperience(exp){
     var len = Object.keys(exp).length;
     var randInt = getRandomInt(0,len);
-    const chosen = exp[0];
+    const chosen = exp[randInt];
     showExperience(chosen);
-    console.log(chosen["img"]);
 }
 
 function showExperience(exp){
@@ -32,11 +31,10 @@ function showExperience(exp){
     name.innerHTML = exp['name'];
     telesomm.innerHTML = exp['telesomm'];
     img.src = exp['img'];
+    img.style.display = 'flex';
 }
 
 function getRandomInt(min, max) {
-    console.log(min);
-    console.log(max);
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive

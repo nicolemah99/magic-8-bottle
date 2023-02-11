@@ -6,7 +6,11 @@
 .Question {
     display: none;
 }
-
+#ExpImg {
+  display: none;
+  width: 50%;
+  height: 50%;
+}
 
 /* Button Style from getcssscan.com by Squareshot */
 
