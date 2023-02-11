@@ -10,33 +10,31 @@
 </head>
 
 <body>
-        <div class="section-4 wf-section">
-            <div id="GameContainer" class="div-block-6 container-center">
-                <div class="div-block-7">
+            <div id="GameContainer" style="background-color: pink">
                     <h1 class="heading-2">Let the Magic 8 Bottle Choose An Experience for you!</h1>
-                    <div id="Questions" class="container-center">
-                        <button id="StartButton" class="Squareshot" onclick="startGame()">Start</button>
-                        <button id="RandButton" class="Squareshot" onclick="getJSON()">Random</button>
+                    <div id="Questions" style="background-color: aqua">
+                        <button id="StartBtn" class="Squareshot" onclick="startGame()">Start</button>
+                        <button id="RandBtn" class="Squareshot" onclick="getJSON()">Random</button>
                         <div id="Question1" class="Question">
-                            <p>Question1</p>
+                            <p>Question1: Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
                             <div class="Squareshot" onclick="nextQuestion(2)">Answer 1</div>
                             <div class="Squareshot" onclick="nextQuestion(2)">Answer 2</div>
                             <div class="Squareshot" onclick="nextQuestion(2)">Answer 3</div>
                         </div>
                         <div id="Question2" class="Question">
-                            <p>Question2</p>
+                            <p>Question2: Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
                             <div class="Squareshot" onclick="nextQuestion(3)">Answer 1</div>
                             <div class="Squareshot" onclick="nextQuestion(3)">Answer 2</div>
                             <div class="Squareshot" onclick="nextQuestion(3)">Answer 3</div>
                         </div>
                         <div id="Question3" class="Question">
-                            <p>Question3</p>
+                            <p>Question3: Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
                             <div class="Squareshot" onclick="nextQuestion(4)">Answer 1</div>
                             <div class="Squareshot" onclick="nextQuestion(4)">Answer 2</div>
                             <div class="Squareshot" onclick="nextQuestion(4)">Answer 3</div>
                         </div>
                         <div id="Question4" class="Question">
-                            <p>Question4</p>
+                            <p>Question4: Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
                             <div class="Squareshot" onclick="shake()">Answer 1</div>
                             <div class="Squareshot" onclick="shake()">Answer 2</div>
                             <div class="Squareshot" onclick="shake()">Answer 3</div>
@@ -46,12 +44,10 @@
                         <h1 id="Name"></h1>
                         <h2 id="Telesomm"></h2>
                         <img id="ExpImg" src="" alt="">
-
                     </a>
-                </div><img id="wineBottle" src="https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/wineBottle.svg" loading="lazy"
-                    alt="">
+                    <button id="StartOverBtn" class="Squareshot" onclick="startOver()">Start Over</button>
+                <img id="wineBottle" src="https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/wineBottle.svg" loading="lazy">
             </div>
-        </div>
 </body>
 
 </html>

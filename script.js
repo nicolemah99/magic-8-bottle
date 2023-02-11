@@ -17,9 +17,8 @@ function getJSON(){
 function getRandExperience(exp){
     var len = Object.keys(exp).length;
     var randInt = getRandomInt(0,len);
-    const chosen = exp[0];
+    const chosen = exp[randInt];
     showExperience(chosen);
-    console.log(chosen["img"]);
 }
 
 function showExperience(exp){
@@ -27,26 +26,27 @@ function showExperience(exp){
     const name = document.getElementById('Name');
     const telesomm = document.getElementById('Telesomm');
     const img = document.getElementById('ExpImg');
-
+    link.style.display = 'block';
     link.href = exp['link'];
     name.innerHTML = exp['name'];
     telesomm.innerHTML = exp['telesomm'];
     img.src = exp['img'];
+    img.style.display = 'flex';
 }
 
 function getRandomInt(min, max) {
-    console.log(min);
-    console.log(max);
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
   }
   
 function startGame() {
-	const startButton = document.getElementById("StartButton");
-    const randButton = document.getElementById('RandButton');
+	const startButton = document.getElementById("StartBtn");
+    const randButton = document.getElementById('RandBtn');
+    const link = document.getElementById('Link');
 	startButton.style.display = "none";
-    randButton.style.display = 'none';
+    randButton.style.display = "none";
+    link.style.display = "none";
 	nextQuestion(1);
 }
 
@@ -69,10 +69,19 @@ function shake(){
     document.getElementById("wineBottle").className = "shake";
     finishGame();
 }
+function startOver(){
+    const startOverBtn = document.getElementById('StartOverBtn');
+    const startButton = document.getElementById("StartBtn");
+    const randButton = document.getElementById('RandBtn');
+    startOverBtn.style.display = 'none';
+    startButton.style.display = "block";
+    randButton.style.display = "block";
 
+}
 function finishGame(){
     const lastQuestion = document.getElementById('Question4');
+    const startOverBtn = document.getElementById('StartOverBtn');
     lastQuestion.style.display = 'none';
+    startOverBtn.style.display = 'block';
     getJSON();
-
 }
