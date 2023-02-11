@@ -17,7 +17,7 @@ function getJSON(){
 function getRandExperience(exp){
     var len = Object.keys(exp).length;
     var randInt = getRandomInt(0,len);
-    const chosen = exp[randInt];
+    const chosen = exp[0];
     showExperience(chosen);
     console.log(chosen["img"]);
 }
