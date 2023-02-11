@@ -26,7 +26,7 @@ function showExperience(exp){
     const name = document.getElementById('Name');
     const telesomm = document.getElementById('Telesomm');
     const img = document.getElementById('ExpImg');
-
+    link.style.display = 'block';
     link.href = exp['link'];
     name.innerHTML = exp['name'];
     telesomm.innerHTML = exp['telesomm'];
@@ -41,10 +41,12 @@ function getRandomInt(min, max) {
   }
   
 function startGame() {
-	const startButton = document.getElementById("StartButton");
-    const randButton = document.getElementById('RandButton');
+	const startButton = document.getElementById("StartBtn");
+    const randButton = document.getElementById('RandBtn');
+    const link = document.getElementById('Link');
 	startButton.style.display = "none";
-    randButton.style.display = 'none';
+    randButton.style.display = "none";
+    link.style.display = "none";
 	nextQuestion(1);
 }
 
@@ -67,10 +69,19 @@ function shake(){
     document.getElementById("wineBottle").className = "shake";
     finishGame();
 }
+function startOver(){
+    const startOverBtn = document.getElementById('StartOverBtn');
+    const startButton = document.getElementById("StartBtn");
+    const randButton = document.getElementById('RandBtn');
+    startOverBtn.style.display = 'none';
+    startButton.style.display = "block";
+    randButton.style.display = "block";
 
+}
 function finishGame(){
     const lastQuestion = document.getElementById('Question4');
+    const startOverBtn = document.getElementById('StartOverBtn');
     lastQuestion.style.display = 'none';
+    startOverBtn.style.display = 'block';
     getJSON();
-
 }
