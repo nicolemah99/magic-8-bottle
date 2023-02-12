@@ -22,13 +22,14 @@ function getRandExperience(exp){
 }
 
 function showExperience(exp){
-    const link = document.getElementById('Link');
+    const expDiv = document.getElementById('ExperienceDiv');
+    const link = document.getElementById('Experience');
     const name = document.getElementById('Name');
     const telesomm = document.getElementById('Telesomm');
     const img = document.getElementById('ExpImg');
     const startOverBtn = document.getElementById('StartOverBtn');
     startOverBtn.style.display = 'block';
-    link.style.display = 'block';
+    expDiv.style.display = 'block';
     link.href = exp['link'];
     name.innerHTML = exp['name'];
     telesomm.innerHTML = exp['telesomm'];
@@ -51,9 +52,11 @@ function getRandomInt(min, max) {
   }
   
 function startGame() {
+    const wineBottle = document.getElementById("wineBottle");
 	const startButton = document.getElementById("StartBtn");
     const randButton = document.getElementById('RandBtn');
-    const link = document.getElementById('Link');
+    const link = document.getElementById('ExperienceDiv');
+    wineBottle.classList.remove('shake');
 	startButton.style.display = "none";
     randButton.style.display = "none";
     link.style.display = "none";
@@ -78,22 +81,23 @@ function nextQuestion(number) {
 
 function shake(){
     document.getElementById("wineBottle").className = "shake";
-    finishGame();
 }
 function startOver(){
     const startOverBtn = document.getElementById('StartOverBtn');
     const startButton = document.getElementById("StartBtn");
     const randButton = document.getElementById('RandBtn');
-    const link = document.getElementById('Link');
-    link.style.display = "none";
+    const expDiv = document.getElementById('ExperienceDiv');
+    expDiv.style.display = "none";
     startOverBtn.style.display = 'none';
     startButton.style.display = "block";
     randButton.style.display = "block";
 
 }
 function finishGame(){
+    const wineBottle = document.getElementById("wineBottle");
     const lastQuestion = document.getElementById('Question4');
     const startOverBtn = document.getElementById('StartOverBtn');
+    wineBottle.className = "shake";
     lastQuestion.style.display = 'none';
     startOverBtn.style.display = 'block';
     getJSON();
