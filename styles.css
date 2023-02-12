@@ -1,18 +1,46 @@
+div{
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+
+}
+.bottle{
+  width: 150px;
+}
+
+.bigBottle{
+  position: absolute;
+  width: 0px;
+  -webkit-transition: width 0.3s linear 0s;
+  transition: width 0.3s linear 0s; 
+  z-index: 10;
+}
+.bottle:hover + .bigBottle{
+  width: 250px;
+}
+
 .container-center {
-    display: flex;
-    justify-content:center;
-    align-content:center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
 }
 #GameDiv{
-  padding: 20px;
   display: flex;
+  flex-direction: column;
+  width: 600px;
 }
 .Question {
-    display: none;
+  padding: 0px;
+  display: none;
 }
 #Experience{
   text-decoration: none;
 }
+.content{
+  display: flex;
+  align-items: flex-start;
+}
+
 #StartOverBtn{
   display: none;
 }
@@ -26,17 +54,12 @@
 #QuestionsDiv{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 
-#WineBottleDiv{
-  padding: 20px;
-}
 
 #Experience{
   width: fit-content;
   justify-content: center;
-  display: none;
 }
 
 /* Button Style from getcssscan.com by Squareshot */
@@ -110,15 +133,15 @@ button{
   }
 
   @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-2deg); }
-    20% { transform: translate(-3px, 0px) rotate(2deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(2deg); }
-    50% { transform: translate(-1px, 2px) rotate(-2deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-2deg); }
-    80% { transform: translate(-1px, -1px) rotate(2deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-2deg); }
+    0% { transform: translate(4px, 4px) rotate(0deg); }
+    10% { transform: translate(-4px, -4px) rotate(-1deg); }
+    20% { transform: translate(-7px, 0px) rotate(1deg); }
+    30% { transform: translate(7px, 4px) rotate(0deg); }
+    40% { transform: translate(4px, -4px) rotate(1deg); }
+    50% { transform: translate(-4px, 4px) rotate(-1deg); }
+    60% { transform: translate(-7px, 4px) rotate(0deg); }
+    70% { transform: translate(7px, 4px) rotate(-1deg); }
+    80% { transform: translate(-4px, -4px) rotate(1deg); }
+    90% { transform: translate(4px, 4px) rotate(0deg); }
+    100% { transform: translate(4px, -4px) rotate(-1deg); }
   }
