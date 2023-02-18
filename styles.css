@@ -1,3 +1,11 @@
+body{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  background-color: #f5bfdf;
+  z-index: -2;
+}
+
 div{
   padding: 20px;
   align-items:baseline;
