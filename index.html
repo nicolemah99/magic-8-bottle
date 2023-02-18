@@ -12,7 +12,7 @@
 <body>
     <div id="GameDiv">
         <div>
-            <h1 class="heading-2">Let the Magic 8 Bottle Choose An Experience for you!</h1>
+            <h1 class="heading-2">Let the Magic 8 Bottle Choose An Exp for you!</h1>
         </div>
         <div class="content">
             <div id="QuestionsDiv">
@@ -21,7 +21,6 @@
                 </div>
                 <button id="StartBtn" class="Squareshot" onclick="startGame()">Start</button>
                 <button id="RandBtn" class="Squareshot" onclick="randExp()">Random</button>
-                <button id="StartOverBtn" class="Squareshot" onclick="startOver()">Start Over</button>
                 <div id="Question1" class="Question">
                     <h3>Describe your style</h3>
                     <button id='btn-1' class="Squareshot answer" onclick="nextQuestion(2)">Funky</button>
@@ -56,11 +55,10 @@
                     <button class="Squareshot answer" onclick="shake()">Anything & Everything</button>
 
                 </div>
-                <div id="ExperienceDiv">
+                <div id="ExpDiv">
                     <h2 id="Name"></h2>
-                    <!-- <h2 id="Telesomm"></h2> -->
                     <img id="ExpImg" src="" alt="">
-                    <a id="Experience" class="Squareshot" href="">See More</a>
+                    <a id="Exp" class="Squareshot" href="">See More</a>
                 </div>
             </div>
             <div id="WineBottleDiv">
@@ -69,6 +67,7 @@
                 <!--<img id="wineBottle" class="bigBottle"src="https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/wineBottle.svg">-->
             </div>
         </div>
+        <button id="StartOverBtn" class="Squareshot" onclick="startOver()">Start Over</button>
     </div>
 </body>
 
