@@ -1,4 +1,18 @@
-//document.addEventListener("DOMContentLoaded", function () {}
+
+document.addEventListener('DOMContentLoaded', () => {
+
+});
+
+function showProgressBar(){
+    let bar = document.getElementById('progressBar');
+    bar.style.display = 'flex';
+}
+
+function changeProgressBar(number){
+    let bar = document.getElementById('progressBarFull')
+    let stringNum = number.toString(); 
+    bar.style.width = `${(number-1)/4*100}%`;
+}
 
 function getJSON(){
     fetch("https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/experiences.json")
@@ -52,6 +66,7 @@ function getRandomInt(min, max) {
   }
   
 function startGame() {
+    showProgressBar();
 	const startButton = document.getElementById("StartBtn");
     const randButton = document.getElementById('RandBtn');
     const link = document.getElementById('ExperienceDiv');
@@ -70,6 +85,11 @@ function nextQuestion(number) {
         questionDiv.style.display = 'none';
     } 
 
+    changeProgressBar(number);
+
+
+
+
     let stringNum = number.toString();
 	const questionDiv = document.getElementById(`Question${stringNum}`);
     questionDiv.style.display = 'flex';
@@ -82,11 +102,13 @@ function shake(){
     setTimeout(finishGame,1000);
 }
 function startOver(){
+    const progressBar = document.getElementById('progressBar');
     const wineBottle = document.getElementById("wineBottle");
     const startOverBtn = document.getElementById('StartOverBtn');
     const startButton = document.getElementById("StartBtn");
     const randButton = document.getElementById('RandBtn');
     const expDiv = document.getElementById('ExperienceDiv');
+    progressBar.style.display = 'none';
     wineBottle.classList.remove('shake');
     expDiv.style.display = "none";
     startOverBtn.style.display = 'none';
@@ -95,6 +117,7 @@ function startOver(){
 
 }
 function finishGame(){
+    changeProgressBar(5);
     const lastQuestion = document.getElementById('Question4');
     const startOverBtn = document.getElementById('StartOverBtn');
     lastQuestion.style.display = 'none';

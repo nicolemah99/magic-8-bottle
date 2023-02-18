@@ -1,9 +1,9 @@
 div{
   padding: 20px;
-  align-items: center;
+  align-items:baseline;
   text-align: center;
-
 }
+
 .bottle{
   width: 150px;
 }
@@ -33,6 +33,21 @@ div{
   padding: 0px;
   display: none;
 }
+
+#progressBar {
+  display: none;
+  width: 200px;
+  height: 10px;
+  border: 3px solid #1601f5;
+}
+
+#progressBarFull{
+  width: 0%;
+  height:100%;
+  background-color: #1601f5;
+
+}
+
 #Experience{
   text-decoration: none;
 }
@@ -64,21 +79,21 @@ div{
 
 /* Button Style from getcssscan.com by Squareshot */
 button{
-  width:fit-content;
+  width: 200px;
 }
 
 .Squareshot {
   align-items: center;
-  background-color: #fee6e3;
-  border: 2px solid #111;
+  background-color: #f6f6f6;
+  border: 2px solid #1601f5;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #111;
+  color: #1601f5;
   cursor: pointer;
   display: flex;
   font-family: Inter,sans-serif;
-  font-size: 16px;
-  height: 48px;
+  font-size: 18px;
+  height: 55px;
   justify-content: center;
   line-height: 24px;
   max-width: 100%;
@@ -94,11 +109,11 @@ button{
 }
 
 .Squareshot:after {
-  background-color: #111;
+  background-color: #1601f5;
   border-radius: 8px;
   content: "";
   display: block;
-  height: 48px;
+  height: 55px;
   left: 0;
   width: 100%;
   position: absolute;
@@ -113,7 +128,7 @@ button{
 }
 
 .Squareshot:active {
-  background-color: #ffdeda;
+  background-color: #e3e3e3;
   outline: 0;
 }
 
