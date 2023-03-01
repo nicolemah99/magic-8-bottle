@@ -21,6 +21,7 @@ function getJSON() {
 			return response.json();
 		})
 		.then(function (exp) {
+			console.log(exp);
 			getRandExp(exp);
 		})
 		.catch(function (error) {

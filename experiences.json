@@ -4,9 +4,14 @@
 		"name": "50 Shades of Pink",
 		"link": "product/50-shades-of-pink",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/2.png",
-		"telesomm": "Christopher"
+		"telesomm": "Christopher",
+		"style": [],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["rose"]
 	},
 	{
+		"id": 2,
 		"name": "A Coat of Many Colors",
 		"link": "product/a-coat-of-many-colors",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/30.png",
