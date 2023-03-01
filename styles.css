@@ -1,14 +1,15 @@
 body{
+  font-family: Inter,sans-serif;
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 800px;
   background-color: #f5bfdf;
   z-index: -2;
 }
 
 div{
   padding: 20px;
-  align-items:baseline;
+  align-items:center;
   text-align: center;
 }
 
@@ -35,7 +36,7 @@ div{
 #GameDiv{
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 800px;
 }
 .Question {
   padding: 0px;
@@ -56,9 +57,6 @@ div{
 
 }
 
-#Experience{
-  text-decoration: none;
-}
 .content{
   display: flex;
   align-items: flex-start;
@@ -69,22 +67,37 @@ div{
 }
 
 #ExpImg {
-  display: none;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
   width: 50%;
-  height: 50%;
+  height: 100%;
+}
+#ExpDiv{
+  padding-top: 80px;
+  padding-bottom: 0px;
+  background-image: url('./webImg2.png') ;
 }
 
 #QuestionsDiv{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 300px;
+  width: 400px;
 }
-
-
-#Experience{
+#Name{
+  display: inline-block;
+  border: 3px solid #1601f5;
+  background-color: #f6f6f6;
+  padding: 15px;
+  border-radius: 8px;
+  color: #1601f5;
+}
+#Exp{
   width: fit-content;
   justify-content: center;
+  text-decoration: none;
+  
 }
 
 /* Button Style from getcssscan.com by Squareshot */
@@ -116,6 +129,8 @@ button{
   touch-action: manipulation;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Squareshot:after {
