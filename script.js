@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function getJSON() {
 	fetch(
-		'https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/experiences.json'
+		'experiences.json'
+		//'https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/experiences.json'
 	)
 		.then(function (response) {
 			return response.json();

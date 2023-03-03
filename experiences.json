@@ -15,251 +15,395 @@
 		"name": "A Coat of Many Colors",
 		"link": "product/a-coat-of-many-colors",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/30.png",
-		"telesomm": "Christopher"
+		"telesomm": "Christopher",
+		"style": [],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["rose", "orange"]
 	},
 	{
 		"id": 3,
 		"name": "A Drunk History of Spain",
 		"link": "product/a-drunk-history-of-spain",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/4.png",
-		"telesomm": "Sean"
+		"telesomm": "Sean",
+		"style": ["nerdy", "silly"],
+		"crew": ["keep my circle small"],
+		"identity": ["language lover", "traveler"],
+		"wine": ["red","white","bubbles","something a little stronger"]
 	},
 	{
 		"id": 4,
 		"name": "A Riesling to Drink",
 		"link": "product/riesling-to-drink",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/3.png",
-		"telesomm": "Christopher"
+		"telesomm": "Christopher",
+		"style": ["luxurious"],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["white", "bubbles", "orange"]
 	},
 	{
 		"id": 5,
 		"name": "All About X! (choose your adeventure)",
 		"link": "product/all-about-x",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/18.png",
-		"telesomm": "Lourdes"
+		"telesomm": "Lourdes",
+		"style": ["nerdy"],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["red", "white","bubbles","orange","anything & everything", "something a little stronger"]
 	},
 	{
 		"id": 6,
 		"name": "Around the World in 4 Bottles",
 		"link": "product/around-the-world-in-4-bottles",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/20.png",
-		"telesomm": "Christopher"
+		"telesomm": "Christopher",
+		"style": ["nerdy"],
+		"crew": ["keep my circle small"],
+		"identity": ["traveler"],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 7,
 		"name": "Spanish Class, By The Glass",
 		"link": "product/spanish-class-by-the-glass",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/12.png",
-		"telesomm": "Sean"
+		"telesomm": "Sean",
+		"style": ["nerdy"],
+		"crew": ["keep my circle small"],
+		"identity": ["language lover","traveler"],
+		"wine": ["red", "white","bubbles","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 8,
 		"name": "Journey to the End of the World",
 		"link": "product/journey-to-the-end-of-the-world",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/20.png",
-		"telesomm": "Sean"
+		"telesomm": "Sean",
+		"style": ["nerdy"],
+		"crew": ["keep my circle small"],
+		"identity": ["traveler"],
+		"wine": ["red","white","bubbles","rose","something a little stronger"]
 	},
 	{
 		"id": 9,
 		"name": "Txa-Txa-Txakoli!",
 		"link": "product/txa-txa-txakoli",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/3.png",
-		"telesomm": "Sean"
+		"telesomm": "Sean",
+		"style": ["silly","luxurious"],
+		"crew": ["keep my circle small"],
+		"identity": ["language lover","traveler"],
+		"wine": ["red","bubbles"]
 	},
 	{
 		"id": 10,
 		"name": "Brown Bag Blind Tasting",
 		"link": "product/brown-bag-blind-tasting",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/17.png",
-		"telesomm": "Lourdes"
+		"telesomm": "Lourdes",
+		"style": ["nerdy"],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 11,
 		"name": "Wine + Food Menu Pairing Consult",
 		"link": "product/wine-and-food-menu-pairing-consult",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/11.png",
-		"telesomm": "Lourdes"
+		"telesomm": "Lourdes",
+		"style": ["foodie"],
+		"crew": ["solo dolo"],
+		"identity": [],
+		"wine": []
 	},
 	{
 		"id": 12,
 		"name": "Bubbles, Bubbles, Bubbles",
 		"link": "www.telesomm.com/product/bubbles-bubbles-bubbles",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/1.png",
-		"telesomm": "Abria"
+		"telesomm": "Abria",
+		"style": ["luxurious"],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["bubbles"]
 	},
 	{
 		"id": 15,
 		"name": "Galentine's Day Brunch",
 		"link": "product/galentines-day-brunch",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/15.png",
-		"telesomm": "Abria"
+		"telesomm": "Abria",
+		"style": ["foodie"],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["bubbles","cocktails","something a little stronger"]
 	},
 	{
 		"id": 14,
 		"name": "Discover Black-Owned Wine Brands",
 		"link": "product/discover-black-owned-wine-brands",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/25.png",
-		"telesomm": "Abria"
+		"telesomm": "Abria",
+		"style": [],
+		"crew": ["rolling deep"],
+		"identity": [],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 15,
 		"name": "Wine Cocktails",
 		"link": "product/wine-cocktails",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/33.png",
-		"telesomm": "Abria"
+		"telesomm": "Abria",
+		"style": ["luxurious"],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["cocktails"]
 	},
 	{
 		"id": 16,
 		"name": "Create a Wine & Food Pairing Menu",
 		"link": "product/creating-a-wine-and-food-pairing-menu",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/15.png",
-		"telesomm": "Abria"
+		"telesomm": "Abria",
+		"style": ["foodie"],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 17,
 		"name": "Natural Wine Tasting",
 		"link": "product/natural-wine-tasting",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/13.png",
-		"telesomm": "Jett"
+		"telesomm": "Jett",
+		"style": ["earthy","funky"],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 18,
 		"name": "Wine Promotional Video One-on-One",
 		"link": "product/wine-promotional-video",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/28.png",
-		"telesomm": "Jett"
+		"telesomm": "Jett",
+		"style": [],
+		"crew": ["solo dolo"],
+		"identity": [],
+		"wine": []
 	},
 	{
 		"id": 19,
 		"name": "Love the Wine You're With",
 		"link": "product/love-the-wine-youre-with",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/15.png",
-		"telesomm": "Brielle"
+		"telesomm": "Brielle",
+		"style": [],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 20,
 		"name": "Roll Out the Red Carpet",
 		"link": "product/roll-out-the-red-carpet",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/21.png",
-		"telesomm": "Brielle"
+		"telesomm": "Brielle",
+		"style": ["luxurious"],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["red"]
 	},
 	{
 		"id": 21,
 		"name": "Wines from Where?",
 		"link": "product/wines-from-where",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/12.png",
-		"telesomm": "Brielle"
+		"telesomm": "Brielle",
+		"style": ["nerdy"],
+		"crew": ["keep my circle small"],
+		"identity": ["traveler"],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 22,
 		"name": "Rosé Colored Glasses",
 		"link": "product/rose-colored-glasses",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/22.png",
-		"telesomm": "Brielle"
+		"telesomm": "Brielle",
+		"style": [],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["rose"]
 	},
 	{
 		"id": 23,
 		"name": "Discover Small Producers: Willamette Valley",
 		"link": "product/discover-small-producers-of-willamette-valley",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/2.png",
-		"telesomm": "Kelly"
+		"telesomm": "Kelly",
+		"style": ["earthy"],
+		"crew": ["keep my circle small"],
+		"identity": ["traveler"],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 24,
 		"name": "Discover Small Producers: Virginia",
 		"link": "product/discover-small-producers-of-virginia",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/23.png",
-		"telesomm": "Kelly"
+		"telesomm": "Kelly",
+		"style": ["earthy"],
+		"crew": ["keep my circle small"],
+		"identity": ["traveler"],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 25,
 		"name": "Wine Shopping Consultation with Kelly",
 		"link": "product/wine-shopping-consultation-with-kelly",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/5.png",
-		"telesomm": "Kelly"
+		"telesomm": "Kelly",
+		"style": ["luxurious"],
+		"crew": ["solo dolo"],
+		"identity": [],
+		"wine": []
 	},
 	{
 		"id": 26,
 		"name": "Discover Small Producers: Sonoma County",
 		"link": "product/discover-small-producers-of-sonoma-county",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/27.png",
-		"telesomm": "Kelly"
+		"telesomm": "Kelly",
+		"style": ["earthy"],
+		"crew": ["keep my circle small"],
+		"identity": ["traveler"],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 27,
 		"name": "Old vs. New World Blind Tasting",
 		"link": "product/old-vs-new-world-blind-tasting",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/4.png",
-		"telesomm": "Kelly"
+		"telesomm": "Kelly",
+		"style": ["nerdy"],
+		"crew": ["keep my circle small"],
+		"identity": ["tactile"],
+		"wine": ["red","white","anything & everything"]
 	},
 	{
 		"id": 28,
 		"name": "Taste of Campania",
 		"link": "product/taste-of-campania",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/7.png",
-		"telesomm": "Katarina"
+		"telesomm": "Katarina",
+		"style": ["earthy"],
+		"crew": ["keep my circle small"],
+		"identity": ["traveler"],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 29,
 		"name": "Taste of Calabria",
 		"link": "product/taste-of-calabria",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/7.png",
-		"telesomm": "Katarina"
+		"telesomm": "Katarina",
+		"style": ["earthy"],
+		"crew": ["keep my circle small"],
+		"identity": ["traveler"],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 30,
 		"name": "Taste of Tuscany",
 		"link": "product/taste-of-tuscany",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/8.png",
-		"telesomm": "Katarina"
+		"telesomm": "Katarina",
+		"style": ["earthy"],
+		"crew": ["keep my circle small"],
+		"identity": ["traveler"],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 31,
 		"name": "Taste of Puglia",
 		"link": "www.telesomm.com/product/taste-of-puglia",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/9.png",
-		"telesomm": "Katarina"
+		"telesomm": "Katarina",
+		"style": ["earthy"],
+		"crew": ["keep my circle small"],
+		"identity": ["traveler"],
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
 	},
 	{
 		"id": 32,
 		"name": "Italian Wine Consultation",
 		"link": "product/italian-wine-consultation",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/8.png",
-		"telesomm": "Katarina"
+		"telesomm": "Katarina",
+		"style": [],
+		"crew": ["solo dolo"],
+		"identity": [],
+		"wine": []
 	},
 	{
 		"id": 33,
 		"name": "The Best Dinner Party Ever - Menu Pairings",
 		"link": "product/the-best-dinner-party-ever",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/10.png",
-		"telesomm": "Christopher"
+		"telesomm": "Christopher",
+		"style": ["foodie"],
+		"crew": ["solo dolo"],
+		"identity": [],
+		"wine": []
 	},
 	{
 		"id": 34,
 		"name": "The Traveling Grape",
 		"link": "product/the-traveling-grape",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/1.png",
-		"telesomm": "Lourdes"
+		"telesomm": "Lourdes",
+		"style": ["nerdy"],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": []
 	},
 	{
 		"id": 35,
 		"name": "Private Biodynamic & Organic Wine Shopping",
 		"link": "product/private-biodynamic-and-organic-wine-shopping",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/8.png",
-		"telesomm": "Lourdes"
+		"telesomm": "Lourdes",
+		"style": ["earthy","funky"],
+		"crew": ["solo dolo"],
+		"identity": [],
+		"wine": []
 	},
 	{
 		"id": 36,
 		"name": "Pinkies Up",
 		"link": "product/pinkies-up",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/19.png",
-		"telesomm": "Kelly"
+		"telesomm": "Kelly",
+		"style": ["luxurious"],
+		"crew": ["keep my circle small"],
+		"identity": [],
+		"wine": ["rose","bubbles"]
 	},
 	{
 		"id": 37,
 		"name": "Rioja: The Wine, The Place, The History",
 		"link": "product/rioja-the-wine-the-place-the-history",
 		"img": "https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/4.png",
-		"telesomm": "Sean"
+		"telesomm": "Sean",
+		"style": ["nerdy"],
+		"crew": ["keep my circle small"],
+		"identity": ["language lover","traveler"],
+		"wine": ["white","red"]
 	}
 ]
