@@ -117,7 +117,6 @@ function showExp(exp) {
 }
 
 function startGame() {
-	random = false;
 	showElement('progressBar', 'flex');
 	hideElement('StartBtn');
 	hideElement('RandBtn');
@@ -142,17 +141,18 @@ function nextQuestion(number, button) {
 }
 
 function finishGame() {
+	getJSON();
 	hideElement('progressBar');
 	hideElement('Question4');
 	showElement('StartOverBtn');
-	getJSON();
 }
 
 function startOver() {
 	const wineBottle = document.getElementById('wineBottle');
 	wineBottle.classList.remove('shake');
 
-    //Clear global answers array
+    //Clear global variables
+	random = false;
     while(answers.length > 0) {
         answers.pop();
     }

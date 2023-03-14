@@ -30,7 +30,7 @@
 		"style": ["nerdy", "silly"],
 		"crew": ["keep my circle small"],
 		"identity": ["language lover", "traveler"],
-		"wine": ["red","white","bubbles","something a little stronger"]
+		"wine": ["red","white","bubbles","something stronger"]
 	},
 	{
 		"id": 4,
@@ -52,7 +52,7 @@
 		"style": ["nerdy"],
 		"crew": ["keep my circle small"],
 		"identity": [],
-		"wine": ["red", "white","bubbles","orange","anything & everything", "something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything", "something stronger"]
 	},
 	{
 		"id": 6,
@@ -63,7 +63,7 @@
 		"style": ["nerdy"],
 		"crew": ["keep my circle small"],
 		"identity": ["traveler"],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 7,
@@ -74,7 +74,7 @@
 		"style": ["nerdy"],
 		"crew": ["keep my circle small"],
 		"identity": ["language lover","traveler"],
-		"wine": ["red", "white","bubbles","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 8,
@@ -85,7 +85,7 @@
 		"style": ["nerdy"],
 		"crew": ["keep my circle small"],
 		"identity": ["traveler"],
-		"wine": ["red","white","bubbles","rose","something a little stronger"]
+		"wine": ["red","white","bubbles","rose","something stronger"]
 	},
 	{
 		"id": 9,
@@ -107,7 +107,7 @@
 		"style": ["nerdy"],
 		"crew": ["keep my circle small"],
 		"identity": [],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 11,
@@ -118,7 +118,7 @@
 		"style": ["foodie"],
 		"crew": ["solo dolo"],
 		"identity": [],
-		"wine": []
+		"wine": ["anything & everything"]
 	},
 	{
 		"id": 12,
@@ -140,7 +140,7 @@
 		"style": ["foodie"],
 		"crew": ["keep my circle small"],
 		"identity": [],
-		"wine": ["bubbles","cocktails","something a little stronger"]
+		"wine": ["bubbles","cocktails","something stronger"]
 	},
 	{
 		"id": 14,
@@ -151,7 +151,7 @@
 		"style": [],
 		"crew": ["rolling deep"],
 		"identity": [],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 15,
@@ -173,7 +173,7 @@
 		"style": ["foodie"],
 		"crew": ["keep my circle small"],
 		"identity": [],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 17,
@@ -184,7 +184,7 @@
 		"style": ["earthy","funky"],
 		"crew": ["keep my circle small"],
 		"identity": [],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 18,
@@ -195,7 +195,7 @@
 		"style": [],
 		"crew": ["solo dolo"],
 		"identity": [],
-		"wine": []
+		"wine": ["anything & everything"]
 	},
 	{
 		"id": 19,
@@ -206,7 +206,7 @@
 		"style": [],
 		"crew": ["keep my circle small"],
 		"identity": [],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 20,
@@ -228,7 +228,7 @@
 		"style": ["nerdy"],
 		"crew": ["keep my circle small"],
 		"identity": ["traveler"],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 22,
@@ -250,7 +250,7 @@
 		"style": ["earthy"],
 		"crew": ["keep my circle small"],
 		"identity": ["traveler"],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 24,
@@ -261,7 +261,7 @@
 		"style": ["earthy"],
 		"crew": ["keep my circle small"],
 		"identity": ["traveler"],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 25,
@@ -272,7 +272,7 @@
 		"style": ["luxurious"],
 		"crew": ["solo dolo"],
 		"identity": [],
-		"wine": []
+		"wine": ["anything & everything"]
 	},
 	{
 		"id": 26,
@@ -283,7 +283,7 @@
 		"style": ["earthy"],
 		"crew": ["keep my circle small"],
 		"identity": ["traveler"],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 27,
@@ -305,7 +305,7 @@
 		"style": ["earthy"],
 		"crew": ["keep my circle small"],
 		"identity": ["traveler"],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 29,
@@ -316,7 +316,7 @@
 		"style": ["earthy"],
 		"crew": ["keep my circle small"],
 		"identity": ["traveler"],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 30,
@@ -327,7 +327,7 @@
 		"style": ["earthy"],
 		"crew": ["keep my circle small"],
 		"identity": ["traveler"],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 31,
@@ -338,7 +338,7 @@
 		"style": ["earthy"],
 		"crew": ["keep my circle small"],
 		"identity": ["traveler"],
-		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something a little stronger"]
+		"wine": ["red", "white","bubbles","orange","anything & everything","rose","something stronger"]
 	},
 	{
 		"id": 32,
@@ -349,7 +349,7 @@
 		"style": [],
 		"crew": ["solo dolo"],
 		"identity": [],
-		"wine": []
+		"wine": ["anything & everything"]
 	},
 	{
 		"id": 33,
@@ -360,7 +360,7 @@
 		"style": ["foodie"],
 		"crew": ["solo dolo"],
 		"identity": [],
-		"wine": []
+		"wine": ["anything & everything"]
 	},
 	{
 		"id": 34,
@@ -371,7 +371,7 @@
 		"style": ["nerdy"],
 		"crew": ["keep my circle small"],
 		"identity": [],
-		"wine": []
+		"wine": ["anything & everything"]
 	},
 	{
 		"id": 35,
@@ -382,7 +382,7 @@
 		"style": ["earthy","funky"],
 		"crew": ["solo dolo"],
 		"identity": [],
-		"wine": []
+		"wine": ["anything & everything"]
 	},
 	{
 		"id": 36,
