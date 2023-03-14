@@ -1,11 +1,14 @@
 const answers = []
+var random = false;
 
 //Listen for answers when buttons pushed
 document.addEventListener('DOMContentLoaded', () => {
 	const buttons = document.getElementsByClassName('answer');
 
 	const buttonPressed = (e) => {
-        answers.push(e.target.innerHTML);
+		if (answers.length < 4){
+			answers.push(e.target.innerHTML.toLowerCase());
+		}
 	};
 
 	for (let button of buttons) {
@@ -15,21 +18,47 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function getJSON() {
 	fetch(
-		'experiences.json'
-		//'https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/experiences.json'
+		'https://cdn.jsdelivr.net/gh/nicolemah99/magic-8-bottle/experiences.json'
 	)
 		.then(function (response) {
 			return response.json();
 		})
 		.then(function (exp) {
-			console.log(exp);
-			getRandExp(exp);
+			if (random == true){
+				getRandExp(exp);
+			}
+			else{
+				filterExp(exp);
+			}
 		})
 		.catch(function (error) {
 			console.error(
 				`Something went wrong when trying to retrieve the JSON file: ${error}`
 			);
 		});
+}
+
+
+function filterExp(exp){
+	console.log(answers);
+	//Perfect Match - Best Case
+	var filter4 = exp.filter(a => a.style.includes(answers[0]) && a.crew.includes(answers[1]) && a.identity.includes(answers[2]) && a.wine.includes(answers[3]));
+	var filter3 = exp.filter(a => a.style.includes(answers[0]) && a.crew.includes(answers[1]) && a.wine.includes(answers[3]));
+	var filter2 = exp.filter(a => a.style.includes(answers[0]) && a.wine.includes(answers[3]));
+	var filter1 = exp.filter(a => a.wine.includes(answers[3]));
+
+	if (filter4.length != 0){
+		getRandExp(filter4);
+	} else if(filter3.length != 0){
+		getRandExp(filter3);
+	} else if (filter2.length != 0){
+		getRandExp(filter2);
+	} else if (filter1.length != 0){
+		getRandExp(filter1);
+	}
+	else{
+		getRandExp(exp);
+	}
 }
 
 //Return random Exp from JSON file
@@ -41,6 +70,7 @@ function getRandExp(exp) {
 }
 
 function randExp() {
+	random = true;
 	hideElement('StartBtn');
 	hideElement('RandBtn');
 	shake();
@@ -87,6 +117,7 @@ function showExp(exp) {
 }
 
 function startGame() {
+	random = false;
 	showElement('progressBar', 'flex');
 	hideElement('StartBtn');
 	hideElement('RandBtn');
@@ -111,7 +142,6 @@ function nextQuestion(number, button) {
 }
 
 function finishGame() {
-    console.log(answers);
 	hideElement('progressBar');
 	hideElement('Question4');
 	showElement('StartOverBtn');

@@ -73,11 +73,6 @@ div{
   width: 50%;
   height: 100%;
 }
-#ExpDiv{
-  padding-top: 80px;
-  padding-bottom: 0px;
-  background-image: url('./webImg2.png') ;
-}
 
 #QuestionsDiv{
   display: flex;
@@ -98,6 +93,9 @@ div{
   justify-content: center;
   text-decoration: none;
   
+}
+#ExpDiv{
+  display: none;
 }
 
 /* Button Style from getcssscan.com by Squareshot */
